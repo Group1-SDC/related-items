@@ -13,7 +13,7 @@ for (var i = 0; i < 99; i++) {
         image: imageFilePath+i+'.jpg'
     }
     products.push(product)
-   
+
 }
 
 for (var product of products) {
@@ -21,10 +21,7 @@ for (var product of products) {
         if (err) {
             console.log(err)
         }
-  
+
     })
     console.log('posted to db')
 }
-  
-
-

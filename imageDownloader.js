@@ -21,14 +21,14 @@ let getImage = (fileName) => {
 };
 
 let downloadImages = (times) => {
-  
+
   let timer = 0;
 
   for (let counter = 0; counter < times; counter++) {
     let fileName = counter;
     setTimeout(() => getImage(fileName), timer);
-    timer += 2000;
+    timer += 150;
   }
 }
 
-downloadImages(100);
+downloadImages(1000);
