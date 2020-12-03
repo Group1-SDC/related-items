@@ -4,16 +4,22 @@ const csvWriter = createCsvWriter({
   path: '/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/test2.csv',
   header: [
     {id: 'title', title: 'TITLE'},
-    {id: 'price', title: 'PRICE'}
+    {id: 'price', title: 'PRICE'},
+    {id: 'description', title: 'DESCRIPTION'},
+    {id: 'category', title: 'CATEGORY'},
+    {id: 'image', title: 'IMAGE'}
   ]
 });
 
-
+const imagePath = 'https://related-items-pictures.s3-us-west-2.amazonaws.com/images/'
 var products = [];
 for (var i = 0; i < 1000; i++) {
   var product = {
     title: faker.commerce.productName(),
-    price: faker.commerce.price()
+    price: faker.commerce.price(),
+    description: faker.commerce.productDescription(),
+    category: faker.commerce.department(),
+    image: imagePath + Math.floor(Math.random() * 1000)  + '.jpg'
   }
   products.push(product)
 }

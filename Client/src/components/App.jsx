@@ -21,6 +21,8 @@ function App() {
         }
     });
 
+    // Refactor to take in (extract) product id from url
+    // Refactor my fetch products to fetch 16 products with the same category
     const fetchProducts = () => {
         axios.get('/api/data')
             .then(({ data }) => {

@@ -14,6 +14,8 @@ for (var i = 0; i < 99; i++) {
     }
     products.push(product)
 }
+// Refactor to take in (extract) product id from url
+// (eventually) refactor my fetch products to fetch 16 products with the same category
 
 for (var product of products) {
     db.postAllProducts(product, function (err, products) {
