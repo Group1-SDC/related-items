@@ -5,8 +5,8 @@ CREATE DATABASE products;
 USE products;
 
 CREATE TABLE products (
-  
-  id INT  AUTO_INCREMENT PRIMARY KEY,
+
+  id INT AUTO_INCREMENT PRIMARY KEY,
   title varchar(255),
   price DECIMAL,
   description varchar(255),
@@ -14,5 +14,3 @@ CREATE TABLE products (
   image varchar(2083)
 
 );
-
-
