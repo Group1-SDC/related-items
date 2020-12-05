@@ -1,3 +1,5 @@
 node_modules
 products.csv
 relations.csv
+olddatagenerator.js
+oldDataGeneratorRelations.js
