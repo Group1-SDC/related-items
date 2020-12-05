@@ -5,7 +5,7 @@ const writeProducts = fs.createWriteStream('/Users/matthewcrawford/Documents/HRS
 writeProducts.write('id,title,price,description,category,image\n');
 
 var writeNewProducts = (writer, encoding, callback) => {
-  let i = 100;
+  let i = 10000000;
   // will need to change the above to 10M
   let idnum = 0;
   function write() {
