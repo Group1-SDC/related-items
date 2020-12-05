@@ -3,7 +3,7 @@ const writeRelations = fs.createWriteStream('/Users/matthewcrawford/Documents/HR
 writeRelations.write('id,listing_id,related_listing\n')
 
 var writeNewRelationData = (writer, encoding, callback) => {
-  let i = 10;
+  let i = 10000000;
   // will need to change above loop from 10 to 10M
   let counter = 0;
   // add counter listings and increment it how i gets incremented?

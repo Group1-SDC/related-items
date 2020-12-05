@@ -1,7 +1,7 @@
 const faker = require('faker');
 const fs = require('fs');
 const imagePath = 'https://related-items-pictures.s3-us-west-2.amazonaws.com/images/'
-const writeProducts = fs.createWriteStream('/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/sampleproducts.csv');
+const writeProducts = fs.createWriteStream('/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/products.csv');
 writeProducts.write('id,title,price,description,category,image\n');
 
 var writeNewProducts = (writer, encoding, callback) => {
