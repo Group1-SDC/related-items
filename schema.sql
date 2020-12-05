@@ -14,3 +14,5 @@ CREATE TABLE products (
   image varchar(2083)
 
 );
+
+-- This file runs and works
