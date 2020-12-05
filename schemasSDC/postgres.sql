@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS relateditems;
 
 CREATE DATABASE relateditems;
 
-USE relateditems;
+\c relateditems;
 
 CREATE TABLE products (
   id integer primary key,

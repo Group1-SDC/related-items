@@ -1,11 +1,11 @@
 const faker = require('faker');
 const fs = require('fs');
 const imagePath = 'https://related-items-pictures.s3-us-west-2.amazonaws.com/images/'
-const writeProducts = fs.createWriteStream('/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/products.csv');
+const writeProducts = fs.createWriteStream('/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/sampleproducts.csv');
 writeProducts.write('id,title,price,description,category,image\n');
 
 var writeNewProducts = (writer, encoding, callback) => {
-  let i = 10000000;
+  let i = 100;
   // will need to change the above to 10M
   let idnum = 0;
   function write() {
