@@ -48,7 +48,8 @@ const writeProducts = fs.createWriteStream('/Users/matthewcrawford/Documents/HRS
 writeProducts.write('id,title,price,description,category,image\n');
 
 var writeNewProducts = (writer, encoding, callback) => {
-  let i = 20;
+  let i = 1000;
+  // will need to change the above to 10M
   let idnum = 0;
   function write() {
     let ok = true;
@@ -74,7 +75,7 @@ var writeNewProducts = (writer, encoding, callback) => {
   }
   write()
 }
-// The commas in descriptions are causing problems-switch to '|' instead?
+
 writeNewProducts(writeProducts, 'utf-8', () => {
   writeProducts.end();
 })
