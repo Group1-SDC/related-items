@@ -9,3 +9,4 @@ newcassdata.csv
 .products.csv.icloud
 .relations.csv.icloud
 dataNewCassandra.js
+schema.sql
