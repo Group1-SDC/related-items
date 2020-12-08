@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS products;
-
+-- Names have been changed so that I don't accidentally delete my relateditems database
 CREATE DATABASE products;
 
 USE products;
