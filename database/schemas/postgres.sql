@@ -18,3 +18,9 @@ CREATE TABLE relations (
   listing_id integer,
   related_listing integer
 );
+
+-- To seed into DATABASE
+
+COPY products (id, title, price, description, category, image) FROM '/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/products.csv' DELIMITER ',' CSV HEADER;
+
+COPY relations FROM '/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/relations.csv' DELIMITER ',' CSV HEADER;
