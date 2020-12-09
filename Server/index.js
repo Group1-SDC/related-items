@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use('/:product_id', express.static('public'));
 
 app.get('/api/data', (req, res) => {
   db.getAllProducts(function (err, results) {
