@@ -19,6 +19,7 @@ CREATE TABLE relations (
   related_listing integer
 );
 
+-- create a b-tree index on listing_id (syntax for adding during create table does not exist)
 -- To seed into DATABASE
 
 COPY products (id, title, price, description, category, image) FROM '/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/products.csv' DELIMITER ',' CSV HEADER;
