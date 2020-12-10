@@ -5,7 +5,7 @@ CREATE DATABASE relateditems;
 \c relateditems;
 
 CREATE TABLE products (
-  id integer primary key,
+  id serial integer primary key,
   title varchar(255),
   price money,
   description varchar(255),
