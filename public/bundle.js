@@ -15,7 +15,6 @@
   \**********************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
 /***/ ((module) => {
 
 eval("function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;\n\n//# sourceURL=webpack://ghrsea13-group2-FEC/./node_modules/@babel/runtime/helpers/interopRequireDefault.js?");
@@ -42,7 +41,6 @@ eval("module.exports = __webpack_require__(/*! ./lib/axios */ \"./node_modules/a
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -56,7 +54,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 50:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -70,7 +67,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \*************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 19:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -84,7 +80,6 @@ eval("\n\n/**\n * A `Cancel` is an object that is thrown when an operation is ca
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 57:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -98,7 +93,6 @@ eval("\n\nvar Cancel = __webpack_require__(/*! ./Cancel */ \"./node_modules/axio
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -112,7 +106,6 @@ eval("\n\nmodule.exports = function isCancel(value) {\n  return !!(value && valu
   \**********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 95:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -126,7 +119,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 52:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -140,7 +132,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -154,7 +145,6 @@ eval("\n\nvar isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL *
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -168,7 +158,6 @@ eval("\n\nvar enhanceError = __webpack_require__(/*! ./enhanceError */ \"./node_
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -182,7 +171,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -196,7 +184,6 @@ eval("\n\n/**\n * Update an Error with the specified config, error code, and res
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -210,7 +197,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \***********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -224,7 +210,6 @@ eval("\n\nvar createError = __webpack_require__(/*! ./createError */ \"./node_mo
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -238,7 +223,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 98:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -252,7 +236,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -266,7 +249,6 @@ eval("\n\nmodule.exports = function bind(fn, thisArg) {\n  return function wrap(
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 22:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -280,7 +262,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -294,7 +275,6 @@ eval("\n\n/**\n * Creates a new URL by combining the specified URLs\n *\n * @par
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -308,7 +288,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -322,7 +301,6 @@ eval("\n\n/**\n * Determines whether the specified URL is absolute\n *\n * @para
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -336,7 +314,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -350,7 +327,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 27:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -364,7 +340,6 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \**************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -378,7 +353,6 @@ eval("\n\n/**\n * Syntactic sugar for invoking a function and expanding an array
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 328:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -397,7 +371,7 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Slide_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Slide.jsx */ \"./Client/src/components/Slide.jsx\");\n/* harmony import */ var _Arrow_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Arrow.jsx */ \"./Client/src/components/Arrow.jsx\");\n/* harmony import */ var _ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ToggleBar.jsx */ \"./Client/src/components/ToggleBar.jsx\");\n/* harmony import */ var react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-addons-css-transition-group */ \"./node_modules/react-addons-css-transition-group/index.js\");\n/* harmony import */ var react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-transition-group */ \"./node_modules/react-transition-group/index.js\");\n/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_transition_group__WEBPACK_IMPORTED_MODULE_6__);\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\n\n\n\n\n\nfunction App() {\n  var MAX_NUM_SLIDES = 12;\n  var NUM_IMAGES_TO_SHIFT = 4;\n\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),\n      _useState2 = _slicedToArray(_useState, 2),\n      products = _useState2[0],\n      setProducts = _useState2[1];\n\n  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),\n      _useState4 = _slicedToArray(_useState3, 2),\n      currentSlideIndex = _useState4[0],\n      setCurrentSlideIndex = _useState4[1];\n\n  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('slideLeft'),\n      _useState6 = _slicedToArray(_useState5, 2),\n      slideTranstionName = _useState6[0],\n      setSlideTranstionName = _useState6[1];\n\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {\n    if (products.length < 1) {\n      fetchProducts();\n      console.log('hello');\n    }\n  }); // Refactor to take in (extract) product id from url\n\n  var fetchProducts = function fetchProducts() {\n    console.log('window.location.pathname sliced: ', window.location.pathname.slice(1, window.location.pathname.length - 1)); // axios.get('/api/data')\n\n    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/api/data/' + window.location.pathname.slice(1, window.location.pathname.length - 1)).then(function (_ref) {\n      var data = _ref.data;\n      setProducts(data);\n    });\n  };\n\n  var nextSlide = function nextSlide() {\n    setSlideTranstionName('slideLeft');\n\n    if (currentSlideIndex === MAX_NUM_SLIDES) {\n      setCurrentSlideIndex(0);\n    } else {\n      setCurrentSlideIndex(currentSlideIndex + NUM_IMAGES_TO_SHIFT);\n    }\n  };\n\n  var previousSlide = function previousSlide() {\n    setSlideTranstionName('slideRight');\n\n    if (currentSlideIndex === 0) {\n      setCurrentSlideIndex(MAX_NUM_SLIDES);\n    } else {\n      setCurrentSlideIndex(currentSlideIndex - NUM_IMAGES_TO_SHIFT);\n    }\n  };\n\n  var slides = function slides() {\n    if (products.length == 0) {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null);\n    }\n\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex],\n      key: currentSlideIndex\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex + 1],\n      key: currentSlideIndex + 1\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex + 2],\n      key: currentSlideIndex + 2\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex + 3],\n      key: currentSlideIndex + 3\n    }));\n  };\n\n  var toggle = function toggle(slideNum) {\n    setCurrentSlideIndex(slideNum);\n  };\n\n  var toggleBar = function toggleBar() {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 0\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 4\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 8\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 12\n    }));\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    id: \"component\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_6__.CSSTransitionGroup, {\n    transitionName: slideTranstionName,\n    transitionEnterTimeout: 500,\n    transitionLeaveTimeout: 300,\n    component: \"div\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"carousel\",\n    key: currentSlideIndex\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Arrow_jsx__WEBPACK_IMPORTED_MODULE_3__.default, {\n    direction: \"left\",\n    clickFunction: previousSlide,\n    glyph: \"<\"\n  }), slides(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Arrow_jsx__WEBPACK_IMPORTED_MODULE_3__.default, {\n    direction: \"right\",\n    clickFunction: nextSlide,\n    glyph: \">\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    id: \"toggleBar\"\n  }, toggleBar())));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://ghrsea13-group2-FEC/./Client/src/components/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Slide_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Slide.jsx */ \"./Client/src/components/Slide.jsx\");\n/* harmony import */ var _Arrow_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Arrow.jsx */ \"./Client/src/components/Arrow.jsx\");\n/* harmony import */ var _ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ToggleBar.jsx */ \"./Client/src/components/ToggleBar.jsx\");\n/* harmony import */ var react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-addons-css-transition-group */ \"./node_modules/react-addons-css-transition-group/index.js\");\n/* harmony import */ var react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_addons_css_transition_group__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-transition-group */ \"./node_modules/react-transition-group/index.js\");\n/* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_transition_group__WEBPACK_IMPORTED_MODULE_6__);\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\n\n\n\n\n\nfunction App() {\n  var MAX_NUM_SLIDES = 12;\n  var NUM_IMAGES_TO_SHIFT = 4;\n\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),\n      _useState2 = _slicedToArray(_useState, 2),\n      products = _useState2[0],\n      setProducts = _useState2[1];\n\n  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0),\n      _useState4 = _slicedToArray(_useState3, 2),\n      currentSlideIndex = _useState4[0],\n      setCurrentSlideIndex = _useState4[1];\n\n  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('slideLeft'),\n      _useState6 = _slicedToArray(_useState5, 2),\n      slideTranstionName = _useState6[0],\n      setSlideTranstionName = _useState6[1];\n\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {\n    if (products.length < 1) {\n      fetchProducts();\n    }\n  }); // Refactor to take in (extract) product id from url\n\n  var fetchProducts = function fetchProducts() {\n    // axios.get('/api/data')\n    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/api/data/' + window.location.pathname.slice(1, window.location.pathname.length - 1)).then(function (_ref) {\n      var data = _ref.data;\n      setProducts(data);\n    });\n  };\n\n  var nextSlide = function nextSlide() {\n    setSlideTranstionName('slideLeft');\n\n    if (currentSlideIndex === MAX_NUM_SLIDES) {\n      setCurrentSlideIndex(0);\n    } else {\n      setCurrentSlideIndex(currentSlideIndex + NUM_IMAGES_TO_SHIFT);\n    }\n  };\n\n  var previousSlide = function previousSlide() {\n    setSlideTranstionName('slideRight');\n\n    if (currentSlideIndex === 0) {\n      setCurrentSlideIndex(MAX_NUM_SLIDES);\n    } else {\n      setCurrentSlideIndex(currentSlideIndex - NUM_IMAGES_TO_SHIFT);\n    }\n  };\n\n  var slides = function slides() {\n    if (products.length == 0) {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null);\n    }\n\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex],\n      key: currentSlideIndex\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex + 1],\n      key: currentSlideIndex + 1\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex + 2],\n      key: currentSlideIndex + 2\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n      products: products[currentSlideIndex + 3],\n      key: currentSlideIndex + 3\n    }));\n  };\n\n  var toggle = function toggle(slideNum) {\n    setCurrentSlideIndex(slideNum);\n  };\n\n  var toggleBar = function toggleBar() {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 0\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 4\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 8\n    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ToggleBar_jsx__WEBPACK_IMPORTED_MODULE_4__.default, {\n      currentSlideIndex: currentSlideIndex,\n      toggle: toggle,\n      slideNum: 12\n    }));\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    id: \"component\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_6__.CSSTransitionGroup, {\n    transitionName: slideTranstionName,\n    transitionEnterTimeout: 500,\n    transitionLeaveTimeout: 300,\n    component: \"div\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    className: \"carousel\",\n    key: currentSlideIndex\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Arrow_jsx__WEBPACK_IMPORTED_MODULE_3__.default, {\n    direction: \"left\",\n    clickFunction: previousSlide,\n    glyph: \"<\"\n  }), slides(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Arrow_jsx__WEBPACK_IMPORTED_MODULE_3__.default, {\n    direction: \"right\",\n    clickFunction: nextSlide,\n    glyph: \">\"\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", {\n    id: \"toggleBar\"\n  }, toggleBar())));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://ghrsea13-group2-FEC/./Client/src/components/App.jsx?");
 
 /***/ }),
 
@@ -466,7 +440,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   \**********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
 /***/ ((module) => {
 
 eval("\nmodule.exports = function chain(){\n  var len = arguments.length\n  var args = [];\n\n  for (var i = 0; i < len; i++)\n    args[i] = arguments[i]\n\n  args = args.filter(function(fn){ return fn != null })\n\n  if (args.length === 0) return undefined\n  if (args.length === 1) return args[0]\n\n  return args.reduce(function(current, next){\n    return function chainedFunction() {\n      current.apply(this, arguments);\n      next.apply(this, arguments);\n    };\n  })\n}\n\n\n//# sourceURL=webpack://ghrsea13-group2-FEC/./node_modules/chain-function/index.js?");
@@ -494,7 +467,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -508,7 +480,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 14:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -522,7 +493,6 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module */
-/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
 /***/ ((module, exports) => {
 
 "use strict";
@@ -536,7 +506,6 @@ eval("\n\nexports.__esModule = true;\nexports.default = hasClass;\n\nfunction ha
   \*******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -577,7 +546,6 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module */
-/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module, exports) => {
 
 "use strict";
@@ -591,7 +559,6 @@ eval("\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _default 
   \****************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 54:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -605,7 +572,6 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
   \*********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -619,7 +585,6 @@ eval("/*\nobject-assign\n(c) Sindre Sorhus\n@license MIT\n*/\n\n\n/* eslint-disa
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 102:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -633,7 +598,6 @@ eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source cod
   \************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 38:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -647,7 +611,6 @@ eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source cod
   \******************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 14:2-16 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\nif (true) {\n  var ReactIs = __webpack_require__(/*! react-is */ \"./node_modules/react-is/index.js\");\n\n  // By explicitly using `prop-types` you are opting into new development behavior.\n  // http://fb.me/prop-types-in-prod\n  var throwOnDirectAccess = true;\n  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ \"./node_modules/prop-types/factoryWithTypeCheckers.js\")(ReactIs.isElement, throwOnDirectAccess);\n} else {}\n\n\n//# sourceURL=webpack://ghrsea13-group2-FEC/./node_modules/prop-types/index.js?");
@@ -660,7 +623,6 @@ eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source cod
   \*************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -689,7 +651,6 @@ eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source cod
   \***************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 14:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -703,7 +664,6 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
   \***************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module */
-/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
 /***/ ((module, exports) => {
 
 "use strict";
@@ -717,7 +677,6 @@ eval("\n\nexports.__esModule = true;\nexports.default = hasClass;\n\nfunction ha
   \******************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -758,7 +717,6 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
   \***********************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module */
-/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module, exports) => {
 
 "use strict";
@@ -772,7 +730,6 @@ eval("\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _default 
   \***************************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 54:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -786,7 +743,6 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
   \******************************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 94:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -800,7 +756,6 @@ eval("\n\nexports.__esModule = true;\n\nvar _extends = Object.assign || function
   \***********************************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 229:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -814,7 +769,6 @@ eval("\n\nexports.__esModule = true;\n\nvar _extends = Object.assign || function
   \***************************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 269:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -862,7 +816,6 @@ eval("\n\nexports.__esModule = true;\nexports.nameShape = undefined;\nexports.tr
   \****************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 60:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -876,7 +829,6 @@ eval("/**\n * Copyright 2014-2015, Facebook, Inc.\n * All rights reserved.\n *\n
   \*************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 21241:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -947,14 +899,6 @@ eval("/** @license React v0.13.6\n * scheduler-tracing.development.js\n *\n * Co
 /*! export unstable_wrapCallback [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
 /*! runtime requirements: __webpack_exports__, __webpack_require__.g, __webpack_require__.* */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 203:26-46 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 252:26-46 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 283:26-46 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 303:28-48 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 316:73-93 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 477:13-33 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 570:28-48 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 584:22-42 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1107,7 +1051,6 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
   \*******************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 94:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1121,7 +1064,6 @@ eval("\n\nexports.__esModule = true;\n\nvar _extends = Object.assign || function
   \************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 229:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1135,7 +1077,6 @@ eval("\n\nexports.__esModule = true;\n\nvar _extends = Object.assign || function
   \****************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 269:0-14 */
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1149,7 +1090,6 @@ eval("\n\nexports.__esModule = true;\n\nvar _extends = Object.assign || function
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -1163,7 +1103,6 @@ eval("\n\nvar _CSSTransitionGroup = __webpack_require__(/*! ./CSSTransitionGroup
   \*****************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 60:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -1211,7 +1150,6 @@ eval("\n\nexports.__esModule = true;\nexports.nameShape = undefined;\nexports.tr
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
-/*! CommonJS bailout: module.exports is used directly at 1899:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -1255,7 +1193,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__.nc, __webpack_require__.* */
-/*! CommonJS bailout: module.exports is used directly at 230:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
