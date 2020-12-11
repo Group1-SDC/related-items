@@ -2,7 +2,7 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 export let options = {
-  duration: '1m',
+  duration: '2m',
   vus: 1000,
   ext: {
     loadimpact: {
@@ -19,10 +19,9 @@ export let options = {
 // Alternate
 // export let options = {
 //   stages: [
-//     {duration: '20s', rps: 1, vus: 100},
-//     {duration: '20s', rps: 10, vus: 100},
-//     {duration: '20s', rps: 100, vus: 100}
-//     {duration: '1m', rps: 1000, vus: 100},
+//     {duration: '1m', target: 10},
+//     {duration: '2m', target: 100},
+//     {duration: '2m', target: 1000}
 //   ]
 // }
 

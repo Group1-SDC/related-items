@@ -1,5 +1,5 @@
 const fs = require('fs');
-const writeRelations = fs.createWriteStream('/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/relations.csv');
+const writeRelations = fs.createWriteStream('/Users/matthewcrawford/Documents/HRSEA-13/SDC/related-items/relations.csv');
 writeRelations.write('id,listing_id,related_listing\n')
 
 var writeNewRelationData = (writer, encoding, callback) => {

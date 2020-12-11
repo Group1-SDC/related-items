@@ -27,5 +27,5 @@ CREATE TABLE relations (
   )
 )
 
-COPY RELATIONS (id, listing_id, related_listing) FROM  '/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/relations.csv' WITH HEADER = TRUE AND CHUNKSIZE = 2500;
-COPY PRODUCTS (id, title, price, description, category, image, relations) FROM ‘/Users/matthewcrawford/Documents/HRSEA-13/FEC/related-items/products.csv’ WITH HEADER = TRUE;
+COPY RELATIONS (id, listing_id, related_listing) FROM  '/Users/matthewcrawford/Documents/HRSEA-13/SDC/related-items/relations.csv' WITH HEADER = TRUE AND CHUNKSIZE = 2500;
+COPY PRODUCTS (id, title, price, description, category, image, relations) FROM ‘/Users/matthewcrawford/Documents/HRSEA-13/SDC/related-items/products.csv’ WITH HEADER = TRUE;
