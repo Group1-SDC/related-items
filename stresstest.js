@@ -2,8 +2,10 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 export let options = {
-  duration: '2m',
-  vus: 1000,
+  duration: '1m',
+  vus: 100,
+  // iterations: 60000, iterations can be run instead of duration, seemingly not together though
+  rps: 1000,
   ext: {
     loadimpact: {
       distribution: {
@@ -29,5 +31,8 @@ export default function () {
   const BASE_URL = 'http://localhost:3003/api/data/' + Math.ceil(Math.random() * 10000000);
 
   let responses = http.get(BASE_URL)
+  // check(responses, {
+  //   'status is 200': (r) => r.status === 200
+  // })
   sleep(1)
 };
