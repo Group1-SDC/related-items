@@ -2,37 +2,77 @@ import http from 'k6/http';
 import { sleep } from 'k6';
 
 export let options = {
-  duration: '1m',
+  duration: '30s',
   vus: 100,
   // iterations: 60000, iterations can be run instead of duration, seemingly not together though
-  rps: 1000,
-  ext: {
-    loadimpact: {
-      distribution: {
-        'amazon:us:portland': { loadZone: 'amazon:us:portland', percent: 100 },
-      },
-    },
-  },
+  // Try adding more http requests
+  // rps: 1000,
+  // ext: {
+  //   loadimpact: {
+  //     distribution: {
+  //       'amazon:us:portland': { loadZone: 'amazon:us:portland', percent: 100 },
+  //     },
+  //   },
+  // },
 };
-
-
-//Try with Amazon server? Sent by Andrew
-
-// Alternate
-// export let options = {
-//   stages: [
-//     {duration: '1m', target: 10},
-//     {duration: '2m', target: 100},
-//     {duration: '2m', target: 1000}
-//   ]
-// }
 
 export default function () {
-  const BASE_URL = 'http://localhost:3003/api/data/' + Math.ceil(Math.random() * 10000000);
+  const n = Math.ceil(Math.random() * 10000000);
+  const BASE_URL = `http://localhost:3003/api/data/${n}`;
+  let response = http.get(BASE_URL);
+  sleep(.1)
+  // sleep(.05)
+}
 
-  let responses = http.get(BASE_URL)
-  // check(responses, {
-  //   'status is 200': (r) => r.status === 200
-  // })
-  sleep(1)
-};
+// export default function () {
+//   const BASE_URL = 'http://localhost:3003/api/data/';
+
+//   let responses = http.batch([
+//     [
+//       'GET',
+//       "'" + BASE_URL + Math.ceil(Math.random() * 10000000) + "'"
+//     ],
+//     [
+//       'GET',
+//       "'" + BASE_URL + Math.ceil(Math.random() * 10000000) + "'"
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ],
+//     [
+//       'GET',
+//       BASE_URL + Math.ceil(Math.random() * 10000000)
+//     ]
+//   ])
+//   sleep(1)
+// }
+
+// To check response code:
+// check(responses, {
+//   'status is 200': (r) => r.status === 200
+// })

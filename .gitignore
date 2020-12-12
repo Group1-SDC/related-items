@@ -11,3 +11,4 @@ newcassdata.csv
 dataNewCassandra.js
 schema.sql
 newrelic.js
+newrelic_agent.log
