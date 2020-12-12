@@ -25,14 +25,6 @@ const getProducts = (id, callback) => {
     .catch((err) => {
       throw err
     })
-  // pool.query(query)
-  // .then((res) => {
-  //   callback(res.rows)
-  // })
-  // .catch((err) => {
-  //   console.log(err)
-
-  // })
 }
 
 
