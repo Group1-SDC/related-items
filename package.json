@@ -13,8 +13,7 @@
   "scripts": {
     "test": "jest",
     "build": "webpack -w",
-    "start": "nodemon server",
-    "seed": "node seed.js"
+    "start": "nodemon server"
   },
   "keywords": [],
   "author": "",

@@ -17,14 +17,22 @@ pool.connect();
 
 
 const getProducts = (id, callback) => {
-  var query = `select products.id, products.title, products.price, products.description, products.category, products.image from products, relations where relations.listing_id = ${id} and products.id = relations.related_listing;`
-  pool.query(query)
-  .then((res) => {
-    callback(res.rows)
-  })
-  .catch((err) => {
-    console.log(err)
-  })
+  var query = `select products.id, products.title, products.price, products.description, products.category, products.image from products, relations where relations.listing_id = ${id} and products.id = relations.related_listing;`;
+  return pool.query(query)
+    .then(({rows}) => {
+      return rows
+    })
+    .catch((err) => {
+      throw err
+    })
+  // pool.query(query)
+  // .then((res) => {
+  //   callback(res.rows)
+  // })
+  // .catch((err) => {
+  //   console.log(err)
+
+  // })
 }
 
 

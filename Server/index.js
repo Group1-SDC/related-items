@@ -11,9 +11,15 @@ const db = require('../database')
 app.use('/:product_id', express.static('public'));
 
 app.get('/api/data/:product_id', (req, res) => {
-  db.getProducts(req.params.product_id, (results) => {
-    res.send(results)
-  })
+  db.getProducts(req.params.product_id)
+    .then(rows => res.send(rows))
+    .catch(err => {
+      console.log(err);
+      res.sendStatus(500)
+    })
+  // db.getProducts(req.params.product_id, (results) => {
+  //   res.send(results)
+  // })
 })
 
 app.listen(port, () => {
