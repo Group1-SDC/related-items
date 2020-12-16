@@ -47,7 +47,7 @@ function Slide(props) {
                 <div id='category'>{props.products.category}</div>
                 <div id='title'>
                     {props.products.title}
-                    ${props.products.price}
+                    {props.products.price}
                 </div>
             </div>
         </div>

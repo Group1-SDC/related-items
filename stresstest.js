@@ -2,16 +2,16 @@ import http from 'k6/http';
 import { sleep, check } from 'k6';
 
 export let options = {
-  duration: '30s',
+  duration: '1m',
   vus: 200,
 };
 
-export default function () {
-  const n = Math.ceil(Math.random() * 10000000);
-  const BASE_URL = `http://localhost:3003/api/data/${n}`;
-  let response = http.get(BASE_URL);
-  sleep(.1)
-}
+// export default function () {
+//   const n = Math.ceil(Math.random() * 10000000);
+//   const BASE_URL = `http://localhost:3003/api/data/${n}`;
+//   let response = http.get(BASE_URL);
+//   sleep(.1)
+// }
 
 export default function () {
   const n = Math.ceil(Math.random() * 10000000);

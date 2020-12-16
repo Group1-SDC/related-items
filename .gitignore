@@ -12,3 +12,6 @@ dataNewCassandra.js
 schema.sql
 newrelic.js
 newrelic_agent.log
+postgres.pem
+pglogin.sh
+.dockerignore

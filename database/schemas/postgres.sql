@@ -20,6 +20,7 @@ CREATE TABLE relations (
 );
 
 -- create a b-tree index on listing_id (syntax for adding during create table does not exist)
+-- command: CREATE INDEX listing_id_index ON relations(listing_id)
 -- To seed into DATABASE
 
 COPY products (id, title, price, description, category, image) FROM '/Users/matthewcrawford/Documents/HRSEA-13/SDC/related-items/products.csv' DELIMITER ',' CSV HEADER;
