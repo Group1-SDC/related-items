@@ -19,10 +19,11 @@ CREATE TABLE relations (
   related_listing integer
 );
 
--- create a b-tree index on listing_id (syntax for adding during create table does not exist)
--- command: CREATE INDEX listing_id_index ON relations(listing_id)
--- To seed into DATABASE
+-- Create a b-tree index on listing_id (syntax for adding during create table does not exist)
+-- -- Command: CREATE INDEX listing_id_index ON relations(listing_id)
 
-COPY products (id, title, price, description, category, image) FROM '/Users/matthewcrawford/Documents/HRSEA-13/SDC/related-items/products.csv' DELIMITER ',' CSV HEADER;
+-- To seed into DATABASE...(insert your own path)
 
-COPY relations FROM '/Users/matthewcrawford/Documents/HRSEA-13/SDC/related-items/relations.csv' DELIMITER ',' CSV HEADER;
+COPY products (id, title, price, description, category, image) FROM '../../products.csv' DELIMITER ',' CSV HEADER;
+
+COPY relations FROM '../../relations.csv' DELIMITER ',' CSV HEADER;

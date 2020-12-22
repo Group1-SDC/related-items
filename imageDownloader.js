@@ -1,3 +1,5 @@
+// This file was used to download 1000 images to an Amazon S3 bucket for use in the project
+
 const fs = require('fs');
 const axios = require('axios');
 const path = require('path');

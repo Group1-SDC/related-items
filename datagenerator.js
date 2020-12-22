@@ -1,3 +1,7 @@
+// This file creates 10 million products with associated data output to a CSV file
+// See sampleproducts.csv for an example of this data
+// Run this file with the command 'node datagenerator.js' while in the root directory of this project -- THIS DATA GENERATION MAY TAKE A WHILE
+
 const faker = require('faker');
 const fs = require('fs');
 const imagePath = 'https://related-items-pictures.s3-us-west-2.amazonaws.com/images/'
@@ -6,7 +10,6 @@ writeProducts.write('id,title,price,description,category,image\n');
 
 var writeNewProducts = (writer, encoding, callback) => {
   let i = 10000000;
-  // will need to change the above to 10M
   let idnum = 0;
   function write() {
     let ok = true;

@@ -20,9 +20,7 @@ function App() {
         }
     });
 
-    // Refactor to take in (extract) product id from url
     const fetchProducts = () => {
-        // axios.get('/api/data')
         axios.get('/api/data/' + window.location.pathname.slice(1, window.location.pathname.length -1))
             .then(({ data }) => {
                 setProducts(data);

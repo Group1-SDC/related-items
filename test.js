@@ -6,14 +6,6 @@ import { getAllProducts } from './database/index.js'
 configure({ adapter: new Adapter() });
 const { db } = require('./database/index.js');
 
-// beforeAll(() => {
-//   db.connection();
-// });
-
-// afterAll(() => {
-//   db.end();
-// });
-
   test("App renders correctly", () => {
     shallow(<App />);
   });

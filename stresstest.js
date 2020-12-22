@@ -1,3 +1,6 @@
+// This stress test simulates 200 simultaneous virtual users accessing the API route for the project over a period of 1 minute
+// Run this stress test with the command 'k6 run stresstest.js' while in the root directory of this project
+
 import http from 'k6/http';
 import { sleep, check } from 'k6';
 
@@ -5,13 +8,6 @@ export let options = {
   duration: '1m',
   vus: 200,
 };
-
-// export default function () {
-//   const n = Math.ceil(Math.random() * 10000000);
-//   const BASE_URL = `http://localhost:3003/api/data/${n}`;
-//   let response = http.get(BASE_URL);
-//   sleep(.1)
-// }
 
 export default function () {
   const n = Math.ceil(Math.random() * 10000000);
