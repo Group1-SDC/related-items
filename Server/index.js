@@ -8,6 +8,8 @@ const db = require('../database')
 
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
+//keeping ^ allows loader io tests to work (hopefully)
 app.use('/:product_id', express.static('public'));
 
 app.get('/api/data/:product_id', (req, res) => {
