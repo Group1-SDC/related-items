@@ -1,3 +1,5 @@
+<img src="https://github.com/footwork-web/related-items/blob/main/herojourney.png" />
+
 # The Hero's Journey (regarding the scaling of a back-end)
 
 Ever wondered how to build and scale the back-end of a web application to handle massive amounts of traffic? So did I, until, through trial and error, I managed to take a legacy codebase with 170 million rows of data, and increase its capacity from 100 users per second to 1300 users per second. It was an epic journey, one full of traps around every turn, moments of "I am a God!" followed by "Why me God?" and countless queries, Docker instances, EC2 containers and stress tests.
