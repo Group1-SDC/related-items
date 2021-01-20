@@ -1,4 +1,4 @@
-<img src="https://github.com/footwork-web/related-items/blob/main/herojourney.png" />
+<img src="https://github.com/footwork-web/related-items/blob/main/_THIS%20SHOULDN'T%20BE%20TOO%20BAD_%20cropped.png" />
 
 # The Hero's Journey (regarding the scaling of a back-end)
 
