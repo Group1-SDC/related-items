@@ -48,7 +48,7 @@ I learned so much on this journey, and I hope you learned something from this hi
 
 ## Tools:
 
-[PostgreSQL](https://www.postgresql.org/)
-[Cassandra](https://cassandra.apache.org/)
-[NGINX](https://www.nginx.com/)
-[Loader.io](https://loader.io/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Cassandra](https://cassandra.apache.org/)
+- [NGINX](https://www.nginx.com/)
+- [Loader.io](https://loader.io/)
