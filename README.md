@@ -42,6 +42,13 @@ In my joy, I attempted to horizontally scale as well. Because my database was re
 
 ## Chapter 6. The Ultimate Boon
 
-Our hero had made it. From humble beginnings, and through many trials, the goal of 1000 requests per second had been accomplished. Many things were learned about the scaling of a back-end. Finding a bottleneck can sometimes be very difficult. But if a careful problem solving method is enacted, usually success will follow.
+I had made it. From humble beginnings, and through many trials, the goal of 1000 requests per second had been accomplished. Many things were learned about the scaling of a back-end. Finding a bottleneck can sometimes be very difficult. But if a careful problem solving method is enacted, usually success will follow.
 
 I learned so much on this journey, and I hope you learned something from this highly unusual ReadMe. If you have any questions, feel free to message me (contact in profile). Thanks for reading!
+
+## Tools:
+
+[PostgreSQL](https://www.postgresql.org/)
+[Cassandra](https://cassandra.apache.org/)
+[NGINX](https://www.nginx.com/)
+[Loader.io](https://loader.io/)
