@@ -52,3 +52,9 @@ I learned so much on this journey, and I hope you learned something from this hi
 - [Cassandra](https://cassandra.apache.org/)
 - [NGINX](https://www.nginx.com/)
 - [Loader.io](https://loader.io/)
+
+## Contact:
+
+- Email: matthew.crawford92@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/-matthewcrawford-/)
+- [Github](https://github.com/macrawford)
