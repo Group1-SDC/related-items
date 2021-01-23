@@ -55,6 +55,6 @@ I learned so much on this journey, and I hope you learned something from this hi
 
 ## Contact:
 
-- Email: matthew.crawford92@gmail.com
+- [Email](matthew.crawford92@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/-matthewcrawford-/)
 - [Github](https://github.com/macrawford)
