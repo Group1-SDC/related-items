@@ -4,7 +4,7 @@
 
 Ever wondered how to build and scale the back-end of a web application to handle massive amounts of traffic? So did I, until, through trial and error, I managed to take a legacy codebase with 170 million rows of data, and increase its capacity from 100 to 1,300 users per second. It was an epic journey, full of traps around every turn, moments of "I am God!" followed by "Why me, God?" and countless queries, Docker instances, EC2 containers and stress tests.
 
-The work that I did is not well-represented in this repo, because it was almost entirely a back-end project. However, I thought I would build out this ReadMe to represent the work that I did, and explain how one might follow in my footsteps, and perhaps avoid some of the pitfalls I faced in scaling a back end. It will not be an easy journey, and it is certainly not for the faint of heart. But for those who dare, come along with our hero on this noble quest!
+The work that I did is not well-represented in this repo, because it was almost entirely a back-end project. However, I thought I would build out this README to represent the work that I did, and explain how one might follow in my footsteps, and perhaps avoid some of the pitfalls I faced in scaling a back end. It will not be an easy journey, and it is certainly not for the faint of heart. But for those who dare, come along with our hero on this noble quest!
 
 ## Chapter 1. The Call to Adventure
 
@@ -44,7 +44,7 @@ In my joy, I attempted to horizontally scale as well. Because my database was re
 
 I had made it. From humble beginnings, and through many trials, the goal of 1000 requests per second had been accomplished. Many things were learned about the scaling of a back-end. Finding a bottleneck can sometimes be very difficult. But if a careful problem solving method is enacted, usually success will follow.
 
-I learned so much on this journey, and I hope you learned something from this highly unusual ReadMe. If you have any questions, feel free to message me (contact in profile). Thanks for reading!
+I learned so much on this journey, and I hope you learned something from this highly unusual README. If you have any questions, feel free to message me (contact in profile). Thanks for reading!
 
 ## Tools:
 
