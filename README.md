@@ -2,7 +2,7 @@
 
 # The Hero's Journey (or, the scaling of a back-end)
 
-Ever wondered how to build and scale the back-end of a web application to handle massive amounts of traffic? So did I, until, through trial and error, I managed to take a legacy codebase with 170 million rows of data, and increase its capacity to 1300 users per second. It was an epic journey, full of traps around every turn, moments of "I am God!" followed by "Why me, God?" and countless queries, Docker instances, EC2 containers and stress tests.
+Ever wondered how to build and scale the back-end of a web application to handle massive amounts of traffic? So did I, until, through trial and error, I managed to take a legacy codebase with 170 million rows of data, and increase its capacity from 100 to 1,300 users per second. It was an epic journey, full of traps around every turn, moments of "I am God!" followed by "Why me, God?" and countless queries, Docker instances, EC2 containers and stress tests.
 
 The work that I did is not well-represented in this repo, because it was almost entirely a back-end project. However, I thought I would build out this ReadMe to represent the work that I did, and explain how one might follow in my footsteps, and perhaps avoid some of the pitfalls I faced in scaling a back end. It will not be an easy journey, and it is certainly not for the faint of heart. But for those who dare, come along with our hero on this noble quest!
 
