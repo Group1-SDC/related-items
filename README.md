@@ -2,7 +2,7 @@
 
 # The Hero's Journey (or, the scaling of a back-end)
 
-Ever wondered how to build and scale the back-end of a web application to handle massive amounts of traffic? So did I, until, through trial and error, I managed to take a legacy codebase with 170 million rows of data, and increase its capacity from 100 to 1,300 users per second. It was an epic journey, full of traps around every turn, moments of "I am God!" followed by "Why me, God?" and countless queries, Docker instances, EC2 containers and stress tests.
+Ever wondered how to build and scale the back-end of a web application to handle massive amounts of traffic? So did I, until, through trial and error, I managed to take a legacy codebase with 170 million rows of data, and increase its capacity from 150 to 1,300 users per second. It was an epic journey, full of traps around every turn, moments of "I am God!" followed by "Why me, God?" and countless queries, Docker instances, EC2 containers and stress tests.
 
 The work that I did is not well-represented in this repo, because it was almost entirely a back-end project. However, I thought I would build out this README to represent the work that I did, and explain how one might follow in my footsteps, and perhaps avoid some of the pitfalls I faced in scaling a back end. It will not be an easy journey, and it is certainly not for the faint of heart. But for those who dare, come along with our hero on this noble quest!
 
@@ -38,7 +38,7 @@ I stood up, wiped the metaphorical dirt off my knees and thought, “Well, I gue
 
 But how to scale this database? Perhaps the simplest way would be to scale it vertically. If I increased the computing power of the database, I thought, maybe I will get more requests per second. So I increased the computing power of my database, from 1 GB of RAM to 4 GB. I ran the tests. Great Scott! My requests per second soared to over 600, a four-fold increase!
 
-In my joy, I attempted to horizontally scale as well. Because my database was read-only, I could safely scale horizontally without worrying too much about streaming replication for the time being. I added a second database instance, and re-ran the tests. A single tear came to my eye as I saw the results appear on the screen: 1300 requests per second.
+In my joy, I attempted to horizontally scale as well. Because my database was read-only, I could safely scale horizontally without worrying too much about streaming replication for the time being. I added a second database instance, and re-ran the tests. Pride swelled in my chest as I read the results on the screen: 1300 requests per second.
 
 ## Chapter 6. The Ultimate Boon
 
